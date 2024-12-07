@@ -1,0 +1,15 @@
+table{
+    border-style:solid;
+    border-color: red;
+    
+}
+th,td{
+    border-style:solid;
+    border-color:red;
+}
+tr:nth-child(odd){
+    background-color: gray;
+}
+tr:nth-child(1){
+    background-color: red;
+}
