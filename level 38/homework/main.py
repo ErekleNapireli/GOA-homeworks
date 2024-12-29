@@ -22,10 +22,11 @@ def set_alarm(employed, vacation):
 
 #4) https://www.codewars.com/kata/57eaeb9578748ff92a000009/train/python
 
-
-
-
-
-
+def sum_mix(arr):
+    num = 0
+    for i in arr:
+        num += int(i)
+        
+    return num
 
 #5)https://www.codewars.com/kata/576b93db1129fcf2200001e6/train/python
