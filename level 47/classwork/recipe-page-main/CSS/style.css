@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 150vh;
+    background-color: hsl(30, 54%, 90%) ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+}
+img{
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 15px;
+}
+.prep-time{
+    
+}
+.h-prep{
+    color: hsl(332, 51%, 32%);
+}
