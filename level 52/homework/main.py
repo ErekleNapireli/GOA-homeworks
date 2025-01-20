@@ -1,5 +1,22 @@
 # 2) შექმენით ცვლადი რომელსაც მნიშვნელობად მისცემთ lambda ფუნქციას რომელიც აბრუნებს 2 სტრინგის ჯამს
+add2 = lambda a, b: a + b
+print(add2("Hello", "world!"))
+
 # 3) შექმენით ცვლადი რომელსაც მნიშვნელობად მისცემთ lambda ფუნქციას რომელიც აბრუნებს 3 რიცხვის ჯამს
+sum3 = lambda a, b, c: a + b + c
+print(sum3(5, 10, 20))
 # 4) შექმენით ცვლადი რომელსაც მნიშვნელობად მისცემთ lambda ფუნქციას რომელიც არგუმენტად იღებს list'ს და აბრუნებს მასში მყოფი რიცხვების ჯამს
+sum_list = lambda listn: sum(listn)
+listn = [10, 2, 5, 15]
+print(sum_list(listn))
+
 # 5) შექმენით ცვლადი რომელსაც მნიშვნელობად მისცემთ lambda ფუნქციას რომელიც არგუმენტად იღებს string'ს და რაიმე სიმბოლოს და აბრუნებს რამდენჯერ მეორდება სიმბოლო string'ში
+count_symbol = lambda s, symbol: s.count(symbol)
+print(count_symbol("Hello world","l"))
+
 # 6) გააკეთეთ ნებისმიერი 5 ცალი 8 kyu
+def are_you_playing_banjo(name):
+    if name[0].lower() == "r":
+        return name + " plays banjo"
+    else:
+        return name + " does not play banjo"
