@@ -51,5 +51,5 @@ print(strings)
 
 # გამოიყენეთ filter ფუნქცია რომ ამოწეროთ სამის ჯერადი რიცხვები: [3, 9, 15, 22, 27, 30].
 nums2 =[3, 9, 15, 22, 27, 30]
-nums2_3jeradi = list(filter(lambda y: y % 3 ==0, nums2))
+nums2_3jeradi = list(filter(lambda y: y % 3 == 0, nums2))
 print(nums2_3jeradi)
