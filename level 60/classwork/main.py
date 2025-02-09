@@ -2,10 +2,11 @@
 def create_phone_number(n):
     return f"({n[0]}{n[1]}{n[2]}) {n[3]}{n[4]}{n[5]}-{n[6]}{n[7]}{n[8]}{n[9]}"
 
-# 2) https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/python
+# 2) 
 
 
-# 3) https://www.codewars.com/kata/54da5a58ea159efa38000836/train/python
+# 3https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/python
+
 def find_it(seq):
     for i in seq:
         if seq.count(i) % 2 != 0:
@@ -17,3 +18,4 @@ def move_zeros(lst):
     zeroes = [x for x in lst if x == 0]
     
     return non_zeroes + zeroes
+
