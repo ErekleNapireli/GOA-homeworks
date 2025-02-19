@@ -13,8 +13,17 @@ def problem(a):
         return a * 50 + 6
     
 # 3) https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce/train/python
+def multi_table(number):
+    res = ""
+    
+    for i in range(1,11):
+        res +=f"{i} * {number} = {i * number}\n"
+        
+    return res[:-1]
 
 # 4) https://www.codewars.com/kata/595970246c9b8fa0a8000086/train/python
+def capitalize_word (word : str) -> str:
+    return word.capitalize()
 
 # 5) https://www.codewars.com/kata/56200d610758762fb0000002/train/python
 def add_five(num):
