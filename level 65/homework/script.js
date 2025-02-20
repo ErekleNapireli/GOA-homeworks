@@ -1,9 +1,9 @@
 // 1) გაიარეთ Intermediate Javascript'ის პირველი თავი მთლიანად
-
+// SoloLearn'ის ფაილი ფოლდერში არის
 // 2) უყურეთ ჩანაწერს თავიდან (იმ მომენტებს სადაც ახსნილია Object Constructor'ები)
 
 // 3) დაასრულეთ საკლასო დავალება
-
+// კლასში დავასრულე
 // 4) შექმენით Object Constructor ნებისმიერ რამეზე რომელსაც ექნება 5 property 
 
 function Person(name, age, color, food, drink) {
