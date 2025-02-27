@@ -58,8 +58,21 @@ def fizzbuzz(n):
     return res
 
 # 6) https://www.codewars.com/kata/5abd66a5ccfd1130b30000a9/train/python
+def row_weights(array):
+    team1 = 0
+    team2 = 0
+    
+    for i in range(len(array)):
+        if i % 2 == 0:
+            team1 += array[i]
+        else:
+            team2 += array[i]
+            
+    return team1, team2
 
 # 7) https://www.codewars.com/kata/535474308bb336c9980006f2/train/python
+def greet(name): 
+    return f"Hello {name.capitalize()}!"
 
 # 8) https://www.codewars.com/kata/580a4734d6df748060000045/train/python
 def is_sorted_and_how(arr):
@@ -71,4 +84,12 @@ def is_sorted_and_how(arr):
         return "no"
     
 # 9) https://www.codewars.com/kata/5b39e3772ae7545f650000fc/train/python
+def remove_duplicate_words(s):
+    listn = []
+    
+    for i in s.split():
+        if i not in listn:
+            listn.append(i)
+        
+    return " ".join(listn)
 
