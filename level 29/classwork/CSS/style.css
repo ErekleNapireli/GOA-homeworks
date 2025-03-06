@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+
+
+
+.p1{
+    text-decoration:  underline;
+}
+.p2{
+    text-decoration: underline dashed ;
+}
+.p3{
+    text-decoration: underline dotted;
+}
+.p4{
+    text-decoration: underline double;
+}
+.p5{
+    text-decoration: underline wavy;
+}
+.p6{
+    text-decoration:  none;
+}
+.p7{
+    font-family:"Bokor",system-ui ;
+}

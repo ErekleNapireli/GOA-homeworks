@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(198, 214, 255);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 20%;
+    height:62vh;
+    flex-direction: column;
+    border-radius: 15px;
+}
+h1,p{
+    text-align: center;
+}
+h1{
+
+}
+p{
+    width:280px;
+}
+img{
+    border-radius: 15px;
+    width: 100%;
+    margin-top: -60px;
+    padding: 20px;
+}

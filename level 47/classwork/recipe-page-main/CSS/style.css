@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    min-height: 100vh;
+    background-color: hsl(30, 54%, 90%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-height: 1000px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 33px;
+}
+
+.description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+/* Preparation time */
+.preparation-time {
+    background-color: rgba(128, 0, 128, 0.137);
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+/* h2'ის სტილი  Preparation time'ში*/
+.preparation-time h2{
+    color: hsl(332, 51%, 32%);
+    padding-bottom: 5px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: "Outfit";
+}
+.preparation-time li{
+    margin-bottom: 10px;
+}
+h1{
+    font-family: "Young Serif";
+    padding-top: 20px;
+}
+h2{
+    color: hsl(332, 51%, 32%);
+}
+p{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit";
+}
+
+/* ყველა ul'ს სტილი */
+li{
+    list-style-type:disc ;
+    margin-left: 18px;
+    padding-left: 10px;
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    font-family: "Outfit";
+}
+
+/* list'ის მარკერის ფერის შეცვლა */
+li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+strong{
+    color: rgba(0, 0, 0, 0.65);
+}
+/* Ingredients */
+.ingredients{
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.ingredients h2{
+    color: hsl(332, 51%, 32%);
+    padding-bottom: 20px;
+}
+/* Instructions */
+.instructions{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.instructions h2{
+    padding-bottom: 20px;
+}
+/* Nutrition */
+.nutrition{
+    padding-top: 15px;
+}
+.nutrition p{
+    padding-bottom: 20px;
+}
+.nutrition h2{
+    padding-bottom: 20px;
+}
+
+/* nutrition table'ის სტილი */
+.nutrition-table {
+    width: 100%; 
+    border-collapse: collapse; 
+    text-align: left; 
+}
+
+.nutrition-table td {
+    padding: 10px; 
+    border-bottom: 1px solid #ddd;
+    color: #5C2C14; 
+}
+/* The only img style */
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+/* nutrition'ში მყოფი სტრონგ თეგები */
+.nutr-strong{
+    color:hsl(332, 51%, 32%);
+}
+/* table */
+td{
+    padding-right: 10px;
+}
+
+/* ჰორიზონტალური ხაზის სტილები */
+hr{
+    border: none;
+    height: 1px;
+    background-color: hsl(30, 18%, 87%);
+}

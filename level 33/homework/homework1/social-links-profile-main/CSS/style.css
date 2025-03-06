@@ -1,0 +1,57 @@
+
+body{
+    background-color: rgb(22, 22, 22);
+    font-family: arial, sans-serif ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    color: white;
+}
+.card{
+    width: 500px;
+    height: 660px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 10px;
+    text-align:center;
+}
+#birth{
+    color: greenyellow;
+    margin: 5px;
+    font-family:Arial;
+}
+#hobby{
+    color: white;
+    font-family: Arial;
+}
+.profile-pic{
+    border-radius: 100px;
+    justify-content: center;
+    width: 30%;
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    margin:9px 0;
+    border: none;
+    font-family: arial;
+    height: 5vh;
+    width: 47vh;
+    justify-content: center;
+    
+}
+button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+    font-family:Arial,;
+}
+
+
