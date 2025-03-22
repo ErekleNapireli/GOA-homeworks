@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent{
+    display: block;
+    background-color: red;
+    width: 500px;
+}
+
+#child{
+    display: block;
+    background-color: blue;
+    width: 50px;
+}
