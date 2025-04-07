@@ -1,0 +1,14 @@
+/*ეს არის პარაგრაფის ფერის შეცვლა  */
+p{
+    color:red;
+}
+/*ეს არის ბოლდ თეგის ფერის შეცვლა */
+b{
+    color: black;
+}
+div{
+    color: aqua
+}
+    .paragraph{
+    color: blueviolet;
+}

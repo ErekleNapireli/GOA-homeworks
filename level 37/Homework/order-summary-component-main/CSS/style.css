@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:-400px ;
+    background-image: url(../images/pattern-background-desktop.svg);
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+}
+
+.top{
+    display: flex;
+    width: 100%;
+    background-size: cover;
+}
+
+.bottom{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(244, 244, 244);
+    padding: 40px;
+    gap: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
