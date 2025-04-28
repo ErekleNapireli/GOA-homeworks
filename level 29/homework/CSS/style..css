@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+h1{
+    text-shadow: 5px 5px 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Montserrat" , Arial  ;
+    color: rgb(73, 67, 67);
+}
+h2{
+    text-transform: capitalize;
+    font-family: "Fira Sans", Arial ;
+    text-shadow: 5px 5px 10px;
+}
+h3{
+    text-transform: capitalize;
+    font-family: "Fira Sans",Arial ;
+    text-shadow: 5px 5px 10px;
+}
+li{
+    text-transform: capitalize;
+    font-family: "Playfair Display", Arial ;
+    text-shadow: 5px 5px 10px;
+}
+p{
+    font-family: "Fira Sans",serif ;
+    text-align: justify;
+    text-shadow: 5px 5px 20px;
+}
+img{
+    align-items: right;
+    width: 10%;
+}
+

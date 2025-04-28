@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background:url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.huddle-img{
+    width: 120px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.illustration-container{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.illustration{
+    width: 800px;
+}
+
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    flex-wrap: wrap;
+}
