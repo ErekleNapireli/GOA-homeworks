@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(254, 216, 111);
+    font-family: arial, sans-serif ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card{
+    background-color: rgb(249, 216, 125) ;
+    text-align:center;
+    width:400;
+    height:500;
+}
+.profile{
+    justify-content: center;
+    width: 200px;
+}
+.profile-pic{
+    border-radius: 100px;
+}

@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 242, 224);
+    display: flex;
+    margin: 0;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    background-color:rgb(255, 249, 240);
+    border-radius: 10px;
+    width: 700px;
+}
+img{
+    position: relative;
+    width: 350px;
+    border-radius: 10px 0px 0px 10px;
+}
+.perfume{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: gray;
+}
+h1{
+    font-size: 30px;
+}
+.info{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.gabrielle{
+    font-family: "lora";
+    font-size: 40px;
+}
+.description{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+.current-price {
+    color: rgb(62,128,104);
+    font-weight: bold;
+    font-size: 35px;
+}
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 8px;
+}
+button{
+    border: none;
+    background-color: rgb(61,129,104);
+    border-radius: 13px;
+    display: flex;
+    margin-top: 30px;
+    padding: 20px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(53, 110, 89);
+}
+.icon-cart{
+    width: 10%;
+    padding: 5px;
+}

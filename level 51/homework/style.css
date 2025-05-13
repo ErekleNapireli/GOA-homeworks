@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent {
+    width: 1500px;
+    height: 800px;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+    gap: 20px;
+}
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 10px 10px 25px ;
+    opacity: 0.8;
+}
+.child1{
+    background: url(./PICS/SouthKorea.png);
+    background-size: cover;
+}
+.child2{
+    background: url(./PICS/Tbilisi.png);
+    background-size: cover;
+}
+.child3{
+    background: url(./PICS/NewYork.png);
+    background-size: cover;
+}
+.child4{
+    background: url(./PICS/Paris.png);
+    background-size: cover;
+}
+.child5{
+    background: url(./PICS/Tokyo.png);
+    background-size: cover;
+}
+.child6{
+    background: url(./PICS/Dubai.png);
+    background-size: cover;
+}
+
+.title{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title h1{
+    font-size: 45px;
+}
+
+

@@ -1,0 +1,27 @@
+/* 
+<!-- შემქენით მარტივი ანიმაცია, რომელიც შეცვლის ყუთის ზომას და ფერს, თავიდან იყოს მწვანე და ზომაში 100x100, შემდეგ შუა ანიმაციაში გახდეს ყვითელი და 150x150, ბოლოს კი იყოს წითელი და 200x200 -->
+} */
+div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: divdiv 3s infinite;
+}
+
+@keyframes divdiv{
+    0% {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    }
+    50% {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    }
+    100% {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    }
+}

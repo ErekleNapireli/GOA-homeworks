@@ -1,0 +1,29 @@
+/*We use pseudo selectors to further enhance user experience for our website,pseudo selectors are selector which style links as it follows: : :link ; :hover ; :active ; :visited ; They all have different functions and purposes: :link to style link before visiting it, we use :hover to style the link appearance when we hover our cursor over it, we use :active to style the link while clicking it(the process of clicking), we use :visited to style the appearance of links after visiting them. */
+/*იმიტომ არის საჭრო უკვე გადასულმა ლინკმა ფერი შეიცვალოს რადგან ვებსაიტის მომხმარებელს არ გაუჭრდეს ან გაუადვლიდეს მისი მოხმარება.*/
+
+
+a{
+    color: rgb(152, 0, 254) ;
+}
+a:hover{
+    color: rgb(153, 81, 255);
+}
+a:visited{
+    color: rgb(235, 148, 247)
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    background-color: rgb(162, 1, 255);
+    width: 75px;
+    height: 25px;
+    border-radius: 12.5px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(181, 50, 255);
+}

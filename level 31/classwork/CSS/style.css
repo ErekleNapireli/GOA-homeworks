@@ -1,0 +1,24 @@
+
+/* link pseudo selectorს ვიყენებთ იმისთვის რომ ეფერი შევუცვალოთ ლინკს მაუსის გადატარების და ყველაფრის გარეშე მარტო ლინკის ფერი */
+a:link{
+    text-decoration: none;
+}
+/*hoverს ვიყენებთ რომ შევუცვალოთ ფერი ლინკს მაუსის გადატარების დროს */
+a:hover{
+    color: blueviolet;
+}
+/* activeს ვიყენებთ რომ ფერი შევუცვალოთ ლინკზე დაკლიკების მომენტს*/
+a:active{
+    color: blueviolet;
+}
+/* visitedს ვიყენებთ რომ ფერი შევუცვალოთ ლინკს რომელზეც უკვე გადავედით  */
+a:visited{
+    color: blueviolet;
+}
+button{
+    border: none;
+    background-color: rgb(200, 0, 255);
+}
+button:hover{
+    background-color: rgb(210, 48, 255);
+}

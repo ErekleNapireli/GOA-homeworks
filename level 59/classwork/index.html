@@ -1,0 +1,29 @@
+<!-- 1) prompt'ის მეშვეობით შექმენით ორი ცვლადი სადაც მომხმარებელს შემოატანინებთ თითო-თითო რიცხვს და შემდეგ გამოიტანეთ მათი ჯამი
+2) prompt'ის მეშვეობით შექმენით 1 ცვლადი სადაც მომხმარებელი შემოიტანს სახელს და შემდეგ მიესალმეთ
+3) შექმენით რაიმე ფორმა, სადაც იქნება name input და submit ღილაკი (არ დაგავიწდეთ რომ name input'ს მისცეთ name attribute), გამოიყენეთ addEventListener იმისთვის რომ submit ღილაკზე დაჭერისას console'ში გამოიტანოს მომხმარებლის შემოტანილი სახელი -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice</title>
+</head>
+<body>
+    <script src="./script.js">
+    const form = document.getElementById("form1");
+
+    submit.addEventListener("Click", function(event) {
+    event.preventDefault(); 
+    const name = form.elements.name;
+    console.log(`მომხმარებლის სახელი: ${name}`);
+    });
+    </script>
+    <form id="form1">
+        <label for="name">Enter your name:</label>
+        <input type="text"  name="name" >
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

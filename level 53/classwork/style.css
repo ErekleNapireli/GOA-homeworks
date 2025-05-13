@@ -1,0 +1,81 @@
+<<<<<<< HEAD
+
+.div {
+    width: 100px;
+    height: 100px;
+    background-color: blue; 
+    margin: 20px;
+}
+ /* 2) შექმენით div'ი რომელიც მასზე მაუსის მიტანისას გადაადგილდება 50px'ით მარჯვნივ  */
+.move-right:hover {
+    transform: translateX(50px);
+    transition: transform 1s ;
+}
+/* 3) შექმენით div'ი რომელიც მასზე მაუსის მიტანისას გაიზრდება 2'ჯერ  */
+.grow-double:hover {
+    transform: scale(2);
+    transition: transform 1s ;
+}
+/* 4) შექმენით div'ი რომელიც მასზე მაუსის მიტანისას გაიზრდება 1.5'ჯერ ხოლო დაჭერის შემდეგ ოდნავ დაპატარავდება  */
+.grow-shrink:hover {
+    transform: scale(1.5);
+    transition: transform 1s ;
+}
+/* 5) შექმენით div'ი რომელიც მასზე მაუსის მიტანისას გადატრიალდება 180 გრადუსით  */
+.grow-shrink:active {
+    transform: scale(0.9);
+    transition: transform 1s ; 
+}
+.rotate-180:hover {
+    transform: rotate(180deg);
+    transition: transform 1s ; 
+}
+/* 6) შექმენით div'ი რომელიც მასზე მაუსის მიტანისას მოიცდის 2 წამით ანუ თავიდან არაფერს გააკეთებს და შემდეგ შეიცვლის ფერს 1 წამში და გადატრიალდება საათის ისრის მიმართულებით 180 გრადუსით 5 წამში */
+.delay-transform {
+    transition: transform 5s, background-color 2s;
+}
+.delay-transform:hover {
+    transform: rotate(180deg);
+    background-color: red; 
+}
+=======
+
+.div {
+    width: 100px;
+    height: 100px;
+    background-color: blue; 
+    margin: 20px;
+}
+ /* 2) შექმენით div'ი რომელიც მასზე მაუსის მიტანისას გადაადგილდება 50px'ით მარჯვნივ  */
+.move-right:hover {
+    transform: translateX(50px);
+    transition: transform 1s ;
+}
+/* 3) შექმენით div'ი რომელიც მასზე მაუსის მიტანისას გაიზრდება 2'ჯერ  */
+.grow-double:hover {
+    transform: scale(2);
+    transition: transform 1s ;
+}
+/* 4) შექმენით div'ი რომელიც მასზე მაუსის მიტანისას გაიზრდება 1.5'ჯერ ხოლო დაჭერის შემდეგ ოდნავ დაპატარავდება  */
+.grow-shrink:hover {
+    transform: scale(1.5);
+    transition: transform 1s ;
+}
+/* 5) შექმენით div'ი რომელიც მასზე მაუსის მიტანისას გადატრიალდება 180 გრადუსით  */
+.grow-shrink:active {
+    transform: scale(0.9);
+    transition: transform 1s ; 
+}
+.rotate-180:hover {
+    transform: rotate(180deg);
+    transition: transform 1s ; 
+}
+/* 6) შექმენით div'ი რომელიც მასზე მაუსის მიტანისას მოიცდის 2 წამით ანუ თავიდან არაფერს გააკეთებს და შემდეგ შეიცვლის ფერს 1 წამში და გადატრიალდება საათის ისრის მიმართულებით 180 გრადუსით 5 წამში */
+.delay-transform {
+    transition: transform 5s, background-color 2s;
+}
+.delay-transform:hover {
+    transform: rotate(180deg);
+    background-color: red; 
+}
+>>>>>>> 496a50f67df150ac9b8e3105b49a3bc663617b43
